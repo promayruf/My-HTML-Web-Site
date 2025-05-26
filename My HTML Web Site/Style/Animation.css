@@ -1,0 +1,37 @@
+@keyframes spin {
+    to {
+    transform: rotate(360deg);
+}
+}
+
+    @keyframes text-travel {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+div {
+    animation: appear linear;
+    animation-timeline:  var();
+    animation-range: entry 0;
+}
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+}
+    to {
+        opacity: 1;
+        scale: 1;
+}
+
+
+}
